@@ -4,7 +4,7 @@
 /*通用項目*/
 .section_01, .section_02, .section_03, .section_04, .section_05, .section_06, .section_07, .section_08, .section_09, .section_10 { min-width:1024px;}
 /*通用項目_go / top*/
-.top { width:5%; position: fixed; z-index: 99; right: 20px; bottom: 20px; cursor: pointer; }
+.btn_backTop { width:5%; position: fixed; z-index: 99; right: 20px; bottom: 20px; cursor: pointer; display: none;}
 .wrapper { position:relative;}
 .wrapper .down { width:3%; position:absolute; left:48.5%; bottom:20px;}
 /*通用項目_文字*/
