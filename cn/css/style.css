@@ -15,6 +15,8 @@ h2{ font-size:4em; font-weight:bold; line-height:1.5em;}
 h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .text_title { font-size:2em;  line-height:2em;}
 .text_word { font-size:1.2em; line-height:1.6em;}
+.country { font-size:2em;  line-height:1.5em;}
+.school {  font-size:0.8em; line-height:1em;}
 
 
 /*選單*/
@@ -67,6 +69,18 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .section_05 .wrapper .article .info  ul { margin-left:20px;}
 .section_05 .wrapper .article .info  li { list-style:disc;}
 .section_05 .wrapper .bg{}
+
+/*SECTION_06*/
+.section_06 {}
+.section_06 .wrapper { position:relative;}
+.section_06 .wrapper .article { width:70%; min-width:650px; position:absolute; left:15%; top:15%; color:#FFF; background:rgba(5,28,52,0.8); padding:2%;}
+.section_06 .wrapper .article .info {  margin:2% 0; }
+.section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
+.section_06 .wrapper .article .info li+li { padding-top:10px;}
+.section_06 .wrapper .article .info .flag { width:45%; height:auto; float:left;}
+.section_06 .wrapper .article .info .name { float:left;}
+.section_06 .wrapper .bg{}
+
 
 /*SECTION_07*/
 .section_07 {}
