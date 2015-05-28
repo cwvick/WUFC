@@ -103,29 +103,29 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 /*SECTION_07*/
 .section_07 {}
 .section_07 .wrapper { position:relative;}
-.section_07 .wrapper .article { width:70%; min-width:890px; position:absolute; left:18%; top:7%; color:#fff; padding:2%;}
+.section_07 .wrapper .article { width:70%;  position:absolute; left:18%; top:7%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
-.section_07 .wrapper .article .info .schedule { height:550px; min-width:750px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+.section_07 .wrapper .article .info .schedule { height:650px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
 .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
   width: 200px;
-  min-height: 550px;
+  min-height: 650px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
 
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 240px;
-  min-height: 550px;
+  width: 400px;
+  min-height: 650px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 400px;
-  min-height: 550px;
+  width: 650px;
+  min-height: 650px;
   padding: 0 2px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule li {
@@ -164,7 +164,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .section_10 .wrapper .article .info a { text-decoration:underline;}
 .section_10 .wrapper .bg{}
 
-@media all and (max-width:1380px){
+@media all and (min-width:1381px) and (max-width:1865px) {
 h2{ font-size:2em; font-weight:bold; line-height:1.5em;}
 h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .text_title { font-size:1.5em;  line-height:2em;}
@@ -172,15 +172,6 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .country { font-size:1.5em;  line-height:1.5em;}
 .school {  font-size:0.5em; line-height:1em;}	
 
-/*選單*/
-.wrap { position:fixed; top:0; z-index:9999; height:100%; }
-.pull { width:23px; height:23px; float:right; } 
-.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
-.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
-.wrap .menubox .title { display:none;} 
-.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
-.wrap .menubox li { margin:20px 0; line-height:21px;}
-.triangle { display:block; float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}
 
 /*SECTION_06*/
 .section_06 {}
@@ -196,10 +187,10 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 /*SECTION_07*/
 .section_07 {}
 .section_07 .wrapper { position:relative;}
-.section_07 .wrapper .article { width:80%; min-width:905px; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
+.section_07 .wrapper .article { width:60%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
-.section_07 .wrapper .article .info .schedule { height:550px; min-width:750px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+.section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
 .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
   width: 155px;
@@ -234,20 +225,101 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 
 }
 
-@media all and (max-width:1265px){
-.section_03 .wrapper .article { width:70%; min-width:650px; position:absolute; left:18%; top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
-	}
 
-@media all and (max-width:1024px){	
-/*通用項目_文字*/
-h2{ font-size:3em; font-weight:bold; line-height:1.5em;}
-h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
+@media all and (min-width:1025px) and (max-width:1380px) {
+h2{ font-size:2em; font-weight:bold; line-height:1.5em;}
+h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .text_title { font-size:1.5em;  line-height:2em;}
 .text_word { font-size:1em; line-height:1.6em;}
+.country { font-size:1.5em;  line-height:1.5em;}
+.school {  font-size:0.5em; line-height:1em;}	
+
+/*選單*/
+.wrap { position:fixed; top:0; z-index:9999; height:100%; }
+.pull { width:23px; height:23px; float:right; } 
+.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
+.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .title { display:none;} 
+.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
+.wrap .menubox li { margin:20px 0; line-height:21px;}
+.triangle { display:block; float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}
+
+/*SECTION_06*/
+.section_06 {}
+.section_06 .wrapper { position:relative;}
+.section_06 .wrapper .article { width:70%; min-width:650px; position:absolute; left:18%; top:7%; color:#FFF; background:rgba(5,28,52,0.8); padding:2%;}
+.section_06 .wrapper .article .info {  margin:2% 0; }
+.section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
+.section_06 .wrapper .article .info li+li { padding-top:10px;}
+.section_06 .wrapper .article .info .flag { width:25%; height:auto; float:left;}
+.section_06 .wrapper .article .info .name { float:left; width:200px; }
+.section_06 .wrapper .bg{}
+
+/*SECTION_07*/
+.section_07 {}
+.section_07 .wrapper { position:relative;}
+.section_07 .wrapper .article { width:80%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
+.section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
+.section_07 .wrapper .article .info {  margin:2% 0; }
+.section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+.section_07 .wrapper .article .info .schedule .schedule_list {
+  float: left;
+  width: 155px;
+  min-height: 550px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 12px;
+}
+.section_07 .wrapper .article .info .schedule .schedule_list_item {
+  float: left;
+  width: 300px;
+  min-height: 550px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 12px;
+}
+.section_07 .wrapper .article .info .schedule .schedule_list_content {
+  float: left;
+  width: 450px;
+  min-height: 550px;
+  padding: 0 2px 0 12px;
+}
+.section_07 .wrapper .article .info .schedule li {
+  letter-spacing: 1px;
+}
+.section_07 .wrapper .article .info .schedule li+li { padding-top: 10px;}
+.section_07 .wrapper .article .info span { float:left; display:block; width:20px; height:30px; margin-top:5px; margin-right:5px;}
+.section_07 .wrapper .bg{}
+
+.section_08 .wrapper .article h3{ font-size:1.7em; font-weight:normal; line-height:1.3em;}
+
+.section_09 .wrapper .article h2{ font-size:3em; font-weight:bold; line-height:1em; margin-bottom: 10px;}
+.section_09 .wrapper .article h3{ font-size:1.5em; font-weight:normal; line-height:1.3em;}
+
+}
+
+
+
+@media all and (min-width:800px) and (max-width:1024px){	
+/*通用項目_文字*/
+h2{ font-size:2.5em; font-weight:bold; line-height:1.5em;}
+h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
+.text_title { font-size:1.5em;  line-height:2em;}
+.text_word { font-size:0.9em; line-height:1.5em;}
+.country { font-size:1.5em;  line-height:1.5em;}
+.school {  font-size:0.5em; line-height:1em;}
+
+/*選單*/
+.wrap { position:fixed; top:0; z-index:9999; height:100%; }
+.pull { width:23px; height:23px; float:right; } 
+.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
+.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .title { display:none;} 
+.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
+.wrap .menubox li { margin:20px 0; line-height:21px;}
+.triangle { display:block; float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}	
 
 /*SECTION_03*/
 
-.section_03 .wrapper .article { width:70%; min-width:650px; position:absolute; left:18%; top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
+.section_03 .wrapper .article { width:70%;  position:absolute; left:18%; top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
 
 /*SECTION_06*/
 .section_06 {}
@@ -263,13 +335,20 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 /*SECTION_07*/
 .section_07 {}
 .section_07 .wrapper { position:relative;}
-.section_07 .wrapper .article { width:60%; min-width:690px; position:absolute; left:18%; top:2%; color:#fff; padding:2%;}
+.section_07 .wrapper .article { width:82%; position:absolute; left:15%; top:2%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
-.section_07 .wrapper .article .info .schedule { height:550px; min-width:750px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+.section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
 .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
   width: 150px;
+  min-height: 550px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 12px;
+}
+.section_07 .wrapper .article .info .schedule .schedule_list_item {
+  float: left;
+  width: 230px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
@@ -287,6 +366,9 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .article .info span { float:left; display:block; width:20px; height:30px; margin-top:5px; margin-right:5px;}
 .section_07 .wrapper .bg{}
 
+.section_08 .wrapper .article h3{ font-size:1.5em; font-weight:normal; line-height:1.2em;}
+.section_08 .wrapper .article { width:50%; min-width:690px; position:absolute; left:15%; top:7%; color:#000; padding:2%;}
 
-
+.section_09 .wrapper .article h2{ font-size:2.5em; font-weight:bold; line-height:1em; margin-bottom: 10px;}
+.section_09 .wrapper .article h3{ font-size:1.5em; font-weight:normal; line-height:1.3em;}
 }
