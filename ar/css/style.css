@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body { font-size:16px; font-family: "Noto Sans CJK TC","Noto Sans CJK SC","PT Sans","Microsoft JhengHei","Microsoft YaHei", sans-serif, Arial, Helvetica; text-align:right; direction:rtl;}
+body { font-size:16px; font-family: "Noto Sans CJK TC","Noto Sans CJK SC","PT Sans","Microsoft JhengHei","Microsoft YaHei", sans-serif, Arial, Helvetica; text-align:right;}
 /*通用項目*/
 div[class^="section_"] { min-width:1024px;}
 /*通用項目_go / top*/
