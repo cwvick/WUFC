@@ -187,7 +187,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 /*SECTION_07*/
 .section_07 {}
 .section_07 .wrapper { position:relative;}
-.section_07 .wrapper .article { width:60%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
+.section_07 .wrapper .article { width:65%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
 .section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
@@ -258,7 +258,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 /*SECTION_07*/
 .section_07 {}
 .section_07 .wrapper { position:relative;}
-.section_07 .wrapper .article { width:80%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
+.section_07 .wrapper .article { width:85%; position:absolute; left:12%; top:5%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
 .section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
@@ -271,7 +271,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 300px;
+  width: 220px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
@@ -348,14 +348,14 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 230px;
+  width: 200px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 400px;
+  width: 430px;
   min-height: 550px;
   padding: 0 2px 0 12px;
 }

@@ -193,23 +193,23 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
 .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
-  width: 155px;
+  width: 130px;
   min-height: 550px;
   border-left: 1px solid #fff;
-  padding: 0 2px 0 12px;
+  padding: 0 5px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 300px;
+  width: 250px;
   min-height: 550px;
   border-left: 1px solid #fff;
-  padding: 0 2px 0 12px;
+  padding: 0 5px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
   width: 450px;
   min-height: 550px;
-  padding: 0 2px 0 12px;
+  padding: 0 5px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule li {
   letter-spacing: 1px;
@@ -264,21 +264,21 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
 .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
-  width: 155px;
+  width: 100px;
   min-height: 550px;
   border-left: 1px solid #fff;
   padding: 0 5px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 250px;
+  width: 200px;
   min-height: 550px;
   border-left: 1px solid #fff;
   padding: 0 5px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 500px;
+  width: 450px;
   min-height: 550px;
   padding: 0 5px 0 12px;
 }
