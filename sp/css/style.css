@@ -271,14 +271,14 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 300px;
+  width: 230px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
 .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 450px;
+  width: 600px;
   min-height: 550px;
   padding: 0 2px 0 12px;
 }
