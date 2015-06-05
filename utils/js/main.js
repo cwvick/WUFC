@@ -24,6 +24,14 @@ $(function() {
     }
   });
 
+  $(document).on('click', '.wrapper .down', function(event) {
+    event.preventDefault();
+    var e = $.Event("keydown");
+    e.which = 34;
+    e.keyCode = 34;
+    $("body").trigger(e);
+  }); 
+
   var sideMenuHandler = function(action) {
     var menubox_width = $('.menubox').outerWidth();
     if ( action == 'close' ) {
@@ -42,6 +50,27 @@ $(function() {
 
   };
 
-  sideMenuHandler('close');
+  var playerAnimation = function() {
+    $('.section_01 .player_03').fadeIn('slow', function() {
+      $('.section_01 .player_02').fadeIn('slow', function() {
+        $('.section_01 .player_01').fadeIn('slow');
+      });
+    });
+  };
 
+  var initUI = function() {
+    sideMenuHandler('close');
+    playerAnimation();
+  };
+
+  initUI();
+
+  $('.main').onepage_scroll({
+    sectionContainer: 'div[class^="section_"]',
+    pagination: false
+  });
+
+  $(window).load(function() {
+    $('body, html').scrollTop(0);
+  });
 });
