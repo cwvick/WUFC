@@ -35,7 +35,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .btn_arrow.close {
 	background-position: 0 -23px;
 }
-.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:10%; }
+.wrap .menubox { width:12%; min-width:170px;  height:100%; background:rgba(25,61,105,0.75); padding-top:10%; }
 .wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { width:60%; margin:0 auto;}
 .wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
@@ -240,7 +240,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 /*選單*/
 .wrap { position:fixed; top:0; z-index:9999; height:100%; }
 .pull { width:23px; height:23px; float:right; } 
-.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
+.wrap .menubox { width:12%; min-width:170px;  height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
 .wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { display:none;} 
 .wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
@@ -313,7 +313,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 /*選單*/
 .wrap { position:fixed; top:0; z-index:9999; height:100%; }
 .pull { width:23px; height:23px; float:right; } 
-.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
+.wrap .menubox { width:12%; min-width:170px;  height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
 .wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { display:none;} 
 .wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
