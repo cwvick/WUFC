@@ -267,29 +267,3 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .bg{}
 
 }
-
-.bg {
-  height: 100%;
-}
-.bg .rwd_img {
-  min-height: 100%;
-}
-.section .wrapper {
-  height: 100%;
-}
-.onepage-wrapper .section {
-  overflow: hidden;
-}
-.wrapper .down {
-  z-index: 1000;
-  cursor: pointer;
-}
-.section_01 .player_01, .section_01 .player_02, .section_01 .player_03 {
-  display: none;
-}
-.menubox li {
-  cursor: pointer;
-}
-.btn_backTop {
-  z-index: 3005;
-}

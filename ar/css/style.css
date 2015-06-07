@@ -317,7 +317,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .wrap .menubox .title { display:none;} 
 .wrap .menubox ul { font-size:0.8em; color:#FFF; margin-right:15%;}
 .wrap .menubox li { margin:20px 0; line-height:21px;}
-.triangle { display:block; float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}	
+.triangle { float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}	
 
 /*SECTION_03*/
 
