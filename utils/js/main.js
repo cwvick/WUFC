@@ -1,18 +1,7 @@
 $(function() {
-	// Back to top
-  $(window).scroll(function(event) {
-    if ( $(this).scrollTop() >= 400 ) {
-      $('.btn_backTop').show();
-    } else {
-      $('.btn_backTop').hide();
-    }
-  });
-
 	$(document).on('click', '.btn_backTop', function(event) {
 		event.preventDefault();
-    $('body, html').animate({
-      scrollTop: 0
-    },200);
+    $('.main').moveTo(1);
 	});
 
   $(document).on('click', '.btn_arrow', function(event) {
@@ -26,11 +15,14 @@ $(function() {
 
   $(document).on('click', '.wrapper .down', function(event) {
     event.preventDefault();
-    var e = $.Event("keydown");
-    e.which = 34;
-    e.keyCode = 34;
-    $("body").trigger(e);
-  }); 
+    $('.main').moveDown();
+  });
+
+  $(document).on('click', '.menubox ul li', function(event) {
+    event.preventDefault();
+    var index = $('.menubox ul li').index($(this)) + 2;
+    $('.main').moveTo(index);
+  });
 
   var sideMenuHandler = function(action) {
     var menubox_width = $('.menubox').outerWidth();
@@ -51,11 +43,29 @@ $(function() {
   };
 
   var playerAnimation = function() {
-    $('.section_01 .player_03').fadeIn('slow', function() {
-      $('.section_01 .player_02').fadeIn('slow', function() {
-        $('.section_01 .player_01').fadeIn('slow');
-      });
+    var $palyerImg = $('.section_01 div[class^="player_"] img')
+    var img_amount  = $palyerImg.length;
+    var count = 0;
+
+    $palyerImg.parent().hide();
+
+    $palyerImg.load(function() {
+      count++;
+      if ( count == img_amount ) {
+        $('.section_01 .player_03').fadeIn('slow', function() {
+          $('.section_01 .player_02').fadeIn('slow', function() {
+            $('.section_01 .player_01').fadeIn('slow');
+          });
+        });
+      }
     });
+  };
+
+  var menuArrowHandler = function(index) {
+    $('.menubox ul li .triangle').removeClass('show');
+    if ( index >= 2 ) {
+      $('.menubox ul li').eq(index-2).find('.triangle').addClass('show');
+    }    
   };
 
   var initUI = function() {
@@ -67,7 +77,15 @@ $(function() {
 
   $('.main').onepage_scroll({
     sectionContainer: 'div[class^="section_"]',
-    pagination: false
+    pagination: false,
+    afterMove: function(index) {
+      if ( index == 1 ) {
+        $('.btn_backTop').hide();
+      } else {
+        $('.btn_backTop').show();
+      }
+      menuArrowHandler(index);
+    }
   });
 
   $(window).load(function() {
