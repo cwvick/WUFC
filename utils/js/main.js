@@ -123,6 +123,9 @@ $(function() {
 
   var initUI = function() {
     sideMenuHandler('close');
+
+    alert($(window).width());
+    
     if ( $(window).width() < 800) {
       // 
     } else {
