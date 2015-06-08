@@ -161,7 +161,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .section_10 .wrapper .article .info a { text-decoration:underline;}
 .section_10 .wrapper .bg{}
 
-@media all and (max-width:1380px){
+@media all and (min-width:1381px) and (max-width:1865px){
 .country { font-size:1.5em;  line-height:1.5em;}
 .school {  font-size:0.5em; line-height:1em;}	
 
@@ -215,11 +215,11 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 
 }
 
-@media all and (max-width:1265px){
+@media all and (min-width:1025px) and (max-width:1380px){
 .section_03 .wrapper .article { width:70%; min-width:650px; position:absolute; left:18%; top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
 	}
 
-@media all and (max-width:1024px){	
+@media all and (min-width:800px) and (max-width:1024px){	
 /*通用項目_文字*/
 h2{ font-size:3em; font-weight:bold; line-height:1.5em;}
 h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
@@ -270,7 +270,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 
 }
 
-@media all and (max-width:500px){	
+@media all and (max-width:799px){	
 
 .bg { display:none;}
 .player_01, .player_02, .player_03 { display:none;}
