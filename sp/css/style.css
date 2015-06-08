@@ -40,6 +40,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .wrap .menubox .WUFC { display:block; width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { width:60%; margin:0 auto;}
 .wrap .menubox .WUFC {display:block;  width:80%; height:98px; margin:0 auto;}
+.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
 .wrap .menubox li { margin:20px 0; line-height:21px;}
 .wrap .menubox a.section { color:#FFF;}
 .triangle { display:none; float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}
@@ -242,9 +243,10 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .wrap { position:fixed; top:0; z-index:9999; height:100%; }
 .pull { width:23px; height:23px; float:right; } 
 .wrap .menubox { width:12%; min-width:170px;  height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
-.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .WUFC { display:block; width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { display:none;} 
 .wrap .menubox .WUFC {display:block;  width:80%; height:98px; margin:0 auto;}
+.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
 .wrap .menubox li { margin:20px 0; line-height:21px;}
 .triangle { float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}
 
@@ -315,9 +317,10 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .wrap { position:fixed; top:0; z-index:9999; height:100%; }
 .pull { width:23px; height:23px; float:right; } 
 .wrap .menubox { width:12%; min-width:170px;  height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
-.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .WUFC { display:block; width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { display:none;} 
 .wrap .menubox .WUFC {display:block;  width:80%; height:98px; margin:0 auto;}
+.wrap .menubox ul { font-size:0.8em; color:#FFF; margin-left:15%;}
 .wrap .menubox li { margin:20px 0; line-height:21px;}
 .triangle { float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}	
 
