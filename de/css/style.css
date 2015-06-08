@@ -4,6 +4,7 @@
 body { font-size:16px; font-family: "Noto Sans CJK TC","Noto Sans CJK SC","PT Sans","Microsoft JhengHei","Microsoft YaHei", sans-serif, Arial, Helvetica;}
 /*通用項目*/
 div[class^="section_"] { min-width:1024px;}
+.mobile_bg { display:none;}
 /*通用項目_go / top*/
 .btn_backTop { width:5%; position: fixed; z-index: 99; right: 20px; bottom: 20px; cursor: pointer; display: none;}
 .wrapper { position:relative;}
@@ -374,4 +375,12 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 
 .section_09 .wrapper .article h2{ font-size:2.5em; font-weight:bold; line-height:1em; margin-bottom: 10px;}
 .section_09 .wrapper .article h3{ font-size:1.5em; font-weight:normal; line-height:1.3em;}
+}
+
+@media all and (max-width:799px){	
+
+.bg { display:none;}
+.player_01, .player_02, .player_03 { display:none;}
+.mobile_bg { display:block;}
+
 }
