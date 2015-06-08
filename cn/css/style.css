@@ -239,6 +239,17 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .text_title { font-size:1.5em;  line-height:2em;}
 .text_word { font-size:1em; line-height:1.6em;}
 
+/*選單*/
+.wrap { position:fixed; top:0; z-index:9999; height:100%; }
+.pull { width:23px; height:23px; float:right; } 
+.wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:3%; }
+.wrap .menubox .WUFC { display:block; width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .title { display:none;} 
+.wrap .menubox ul { font-size:1.2em; color:#FFF; margin-left:15%;}
+.wrap .menubox li { margin:20px 0; line-height:21px;}
+.triangle { float:left; width:20px; height:21px; background:url(../imgs/triangle.png) no-repeat; margin-right:5px;}
+
+
 /*SECTION_03*/
 
 .section_03 .wrapper .article { width:70%; min-width:650px; position:absolute; left:18%; top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
