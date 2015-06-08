@@ -36,7 +36,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 	background-position: 0 -23px;
 }
 .wrap .menubox { width:12%; min-width:130px; height:100%; background:rgba(25,61,105,0.75); padding-top:10%; }
-.wrap .menubox .WUFC { width:80%; height:98px; margin:0 auto;}
+.wrap .menubox .WUFC { display:block; width:80%; height:98px; margin:0 auto;}
 .wrap .menubox .title { width:60%; margin:0 auto;}
 .wrap .menubox ul { font-size:0.8em; color:#FFF; margin-right:15%;}
 .wrap .menubox li { margin:20px 0; line-height:21px;}
