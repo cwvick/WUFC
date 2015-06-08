@@ -40,4 +40,33 @@
 .btn_backTop {
   z-index: 3005;
 }
+.flashlight {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  overflow: hidden;
+}
+.flashlight_01 {
+  width: 148px;
+  height: 151px;
+  background: url(../../cn/imgs/lights_1.png) no-repeat;
+}
+.flashlight_02 {
+  width: 193px;
+  height: 208px;
+  background: url(../../cn/imgs/lights_2.png) no-repeat;
+}
+.flashlight_03 {
+  width: 129px;
+  height: 117px;
+  background: url(../../cn/imgs/lights_3.png) no-repeat;
+}
+@media all and (max-width:799px){
+  div[class^="section_"] {
+    min-width: 100%;
+  }
+  body, html {
+    overflow: visible;
+  }
+}
 
