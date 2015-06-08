@@ -149,7 +149,7 @@ $(function() {
   $(window).load(function() {
     $('body, html').scrollTop(0);
 
-    if ( $(window).width() >= 800 && !$('.section_01 .player_01').is(':visible') && !$('.section_01 .player_02').is(':visible') && !$('.section_01 .player_03').is(':visible') ) {
+    if ( !jQuery.browser.mobile && $(window).width() >= 800 && !$('.section_01 .player_01').is(':visible') && !$('.section_01 .player_02').is(':visible') && !$('.section_01 .player_03').is(':visible') ) {
       $('.section_01 .player_03').fadeIn('slow', function() {
         $('.section_01 .player_02').fadeIn('slow', function() {
           $('.section_01 .player_01').fadeIn('slow');
