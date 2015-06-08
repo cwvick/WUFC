@@ -294,7 +294,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 
 }
 
-@media all and (max-width:567px){	
+@media all and (max-width:300px){	
 
 .bg { display:none;}
 .player_01, .player_02, .player_03 { display:none;}
