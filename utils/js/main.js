@@ -63,7 +63,9 @@ $(function() {
       if ( count == img_amount ) {
         $('.section_01 .player_03').fadeIn('slow', function() {
           $('.section_01 .player_02').fadeIn('slow', function() {
-            $('.section_01 .player_01').fadeIn('slow');
+            $('.section_01 .player_01').fadeIn('slow', function() {
+              setFlashlight();
+            });
           });
         });
       }
@@ -139,7 +141,6 @@ $(function() {
 
     if ( $(window).width() >= 800  && !jQuery.browser.mobile ) {
       playerAnimation();
-      setFlashlight();
       setPageScroll();
     }
   };
@@ -152,7 +153,9 @@ $(function() {
     if ( !jQuery.browser.mobile && $(window).width() >= 800 && !$('.section_01 .player_01').is(':visible') && !$('.section_01 .player_02').is(':visible') && !$('.section_01 .player_03').is(':visible') ) {
       $('.section_01 .player_03').fadeIn('slow', function() {
         $('.section_01 .player_02').fadeIn('slow', function() {
-          $('.section_01 .player_01').fadeIn('slow');
+          $('.section_01 .player_01').fadeIn('slow', function() {
+            setFlashlight();
+          });
         });
       });
     }
