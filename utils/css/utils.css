@@ -69,4 +69,10 @@
     overflow: visible;
   }
 }
+.isMobile div[class^="section_"] {
+  min-width: 100%;
+}
+.isMobile .bg { display:none;}
+.isMobile .player_01, .isMobile .player_02, .isMobile .player_03 { display:none;}
+.isMobile .mobile_bg { display:block;}
 

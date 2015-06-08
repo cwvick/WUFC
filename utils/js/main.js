@@ -132,12 +132,12 @@ $(function() {
   var initUI = function() {
     sideMenuHandler('close');
 
-    alert(jQuery.browser.mobile);
+    if ( jQuery.browser.mobile ) {
+      $('body').addClass('isMobile');
+      $('body, html').css('overflow', 'visible');
+    }
 
-    if ( $(window).width() < 800) {
-      // 
-    } else {
-      console.log( $(window).width());
+    if ( $(window).width() >= 800  && !jQuery.browser.mobile ) {
       playerAnimation();
       setFlashlight();
       setPageScroll();
@@ -161,7 +161,7 @@ $(function() {
   $(window).resize(function() {
     var winWidth = $(window).width();
 
-    if ( (winWidth < 800 && $('.onepage-wrapper').length > 0) || winWidth >= 800 && $('.onepage-wrapper').length == 0 ) {
+    if ( !jQuery.browser.mobile && ((winWidth < 800 && $('.onepage-wrapper').length > 0) || winWidth >= 800 && $('.onepage-wrapper').length == 0) ) {
       location.reload();
     }
   });
