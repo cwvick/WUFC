@@ -70,6 +70,9 @@
     overflow: visible;
   }
 }
+div[class^="section_"] {
+  overflow: hidden;
+}
 .isMobile div[class^="section_"] {
   min-width: 100%;
 }
