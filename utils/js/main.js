@@ -9,7 +9,7 @@
 $(function() {
 	$(document).on('click', '.btn_backTop', function(event) {
 		event.preventDefault();
-    $('.main').moveTo(1);
+    $.fn.fullpage.moveTo(1);
 	});
 
   $(document).on('click', '.btn_arrow', function(event) {
@@ -23,13 +23,13 @@ $(function() {
 
   $(document).on('click', '.wrapper .down', function(event) {
     event.preventDefault();
-    $('.main').moveDown();
+    $.fn.fullpage.moveSectionDown();
   });
 
   $(document).on('click', '.menubox ul li', function(event) {
     event.preventDefault();
     var index = $('.menubox ul li').index($(this)) + 2;
-    $('.main').moveTo(index);
+    $.fn.fullpage.moveTo(index);
   });
 
   var sideMenuHandler = function(action) {
@@ -116,32 +116,38 @@ $(function() {
   };
 
   var setPageScroll = function() {
-    $('.main').onepage_scroll({
-      sectionContainer: 'div[class^="section_"]',
-      pagination: false,
-      afterMove: function(index) {
-        if ( index == 1 ) {
+    $('.main').fullpage({
+       onLeave: function(index, nextIndex, direction) {
+        if ( nextIndex == 1 ) {
           $('.btn_backTop').hide();
         } else {
           $('.btn_backTop').show();
           sideMenuHandler('open');
         }
-        menuArrowHandler(index);
-      }
+        menuArrowHandler(nextIndex);
+       },
+       afterRender: function(){
+        $('.main .bg').height($(window).height());
+       },
+       afterResize: function(){
+        $('.main .bg').height($(window).height());
+       }
     });
   };
 
   var initUI = function() {
     sideMenuHandler('close');
 
-    if ( jQuery.browser.mobile ) {
+    if ( jQuery.browser.mobile || !$.support.leadingWhitespace ) {
       $('body').addClass('isMobile');
       $('body, html').css('overflow', 'visible');
     }
 
     if ( $(window).width() >= 800  && !jQuery.browser.mobile ) {
       playerAnimation();
-      setPageScroll();
+      if ( $.support.leadingWhitespace ) {
+        setPageScroll();
+      }
     }
   };
 
@@ -164,7 +170,7 @@ $(function() {
   $(window).resize(function() {
     var winWidth = $(window).width();
 
-    if ( !jQuery.browser.mobile && ((winWidth < 800 && $('.onepage-wrapper').length > 0) || winWidth >= 800 && $('.onepage-wrapper').length == 0) ) {
+    if ( !jQuery.browser.mobile && ((winWidth < 800 && $('.fullpage-wrapper').length > 0) || winWidth >= 800 && $('.fullpage-wrapper').length === 0) ) {
       location.reload();
     }
   });
