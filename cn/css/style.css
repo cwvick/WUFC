@@ -321,12 +321,11 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 	right:15px;
 	top:15px;
 	z-index:998;
-	text-indent:-9999px;
 }
 #MENU { width:93px; height:93px; background:url(../imgs/menu.png) no-repeat;}
 
 #SUBMENU{
-	width:210px;
+	width:450px;
 	height:310px;
 	background-color:rgba(25,34,64,0.8);
 	padding-bottom:15px;
@@ -336,21 +335,20 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 	display:none;
 }
 
-#SUBMENU ul{
-	padding:25px 20px 20px 25px;
-}
+
+#SUBMENU li { border-bottom:#FFF 1PX solid; background-color:rgba(25,34,64,0.8); 	text-align:center;}
+#SUBMENU li:first-child { border-top:#FFF 1PX solid;}
+#SUBMENU li:hover { background-color:rgba(255,107,27,1);}
 
 #SUBMENU li a{
-	font-size:0.85em;
-	display:block;
+	font-size:1.2em;
 	line-height:45px;
 	text-align:justify;
 	text-justify:inter-word;
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 	margin-bottom:-1px;
 	font-weight:bold;
 }
-#SUBMENU li a:hover{
-	color:#00F;}
+
 }
