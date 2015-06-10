@@ -168,4 +168,28 @@ $(function() {
       location.reload();
     }
   });
+  
+  
 });
+
+$(function(){
+	
+	$("#MENU").on("click",doOPEN);
+
+	function doOPEN(){
+		
+		$("#SUBMENU").slideToggle(300); //JQ 的功能：讓 DIV 拉上拉下的效果
+		
+		$("article").on("click",doCLOSE);
+				
+	}
+		
+	function doCLOSE(){
+		
+		$("#SUBMENU").hide(); //JQ 的功能：讓 DIV 直接消失的效果
+			
+		$("article").off("click");
+		
+	}
+		
+})
