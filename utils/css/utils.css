@@ -135,24 +135,22 @@ div[class^="section_"] {
     background-color: rgba(25, 34, 64, 0.8);
   }
   .phone_submenu li {
-    border-bottom: #FFF 1px solid;
+    border-bottom: 1px solid #fff;
     background-color: rgba(25, 34, 64, 0.8);
     text-align: center;
-  }
-  .phone_submenu li:first-child {
-    border-top: #FFF 1px solid;
-  }
-  .phone_submenu li:hover {
-    background-color: rgba(255, 107, 27, 1);
-  }
-  .phone_submenu li a {
+    cursor: pointer;
     font-size: 1.2em;
     line-height: 45px;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
     color: #fff;
     text-decoration: none;
-    margin-bottom: -1px;
     font-weight: bold;
+  }
+  .phone_submenu li:first-child {
+    border-top: 1px solid #fff;
+  }
+  .phone_submenu li:hover {
+    background-color: rgba(255, 107, 27, 1);
   }
 }

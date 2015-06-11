@@ -41,14 +41,24 @@ $(function() {
       $('.phone_submenu').slideUp();
       $(this).removeClass('close');
     }
-    
+  });
+
+  $(document).on('click', '.phone_submenu ul li', function(event) {
+    event.preventDefault();
+    var section = $(this).data('section');
+
+    if ( section ) {
+      var sectionTop = $('.main .' + section).offset().top;
+      $('body, html').animate({
+        scrollTop: sectionTop
+      },200);
+    }
   });
 
   var sideMenuHandler = function(action) {
     var menubox_width = $('.menubox').outerWidth();
     if ( action == 'close' ) {
       $('.wrap').animate({
-        
         left: -menubox_width + 'px'
       }, 500, function() {
         $('.btn_arrow').removeClass('close').addClass('open');
