@@ -115,7 +115,7 @@ div[class^="section_"] {
   /*SECTION_06*/
   .section_06 .wrapper .article { width:85%; min-width:85px; position:absolute; left:5%; top:5%; color:#FFF; background:rgba(5,28,52,0.8); padding:2%;}
   .section_06 .wrapper .article .info {  margin:2% 0; }
-  .section_06 .wrapper .article .info ul.school_list {float: left; width:48%; padding: 0 2px 0 8px;}
+  .section_06 .wrapper .article .info ul.school_list {float: left; width:48%; padding: 0 2px 0 2px;}
   .section_06 .wrapper .article .info li+li { padding-top:30px;}
   .section_06 .wrapper .article .info .flag { width:45%; height:auto; float:left;}
   .section_06 .wrapper .article .info .name { float:left; width:175px;}
