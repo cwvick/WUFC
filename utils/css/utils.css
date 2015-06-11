@@ -106,7 +106,7 @@ div[class^="section_"] {
   /*SECTION_01*/
   .section_01 {}
   .section_01 .wrapper .topic { width:40%; height:auto; position:absolute; left:10%; top:5%; }
-  .section_01 .wrapper .language { width:30%; position:absolute; bottom:20px; right:90px; z-index:9999; }
+  .section_01 .wrapper .language { width:30%; position:absolute; bottom:20px; right:20px; z-index:9999; }
   .section_01 .wrapper .language ul {}
   .section_01 .wrapper .language li { float:none; width:30%;}
   .section_01 .wrapper .language li+li { padding-right:2%;}
