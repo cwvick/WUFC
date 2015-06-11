@@ -130,13 +130,13 @@ div[class^="section_"] {
   width: 15%;
   min-height: 300px;
   border-right: 1px solid #fff;
-  padding: 0 2px 0 12px;
+  padding: 0 2px 0 5px;
 }
   .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
   width: 55%;
   min-height: 300px;
-  padding: 0 2px 0 12px;
+  padding: 0 2px 0 5px;
 }
   .section_07 .wrapper .article .info .schedule li {
   letter-spacing: 1px;
