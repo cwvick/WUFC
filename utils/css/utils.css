@@ -128,14 +128,14 @@ div[class^="section_"] {
   .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
   width: 50px;
-  min-height: 250px;
+
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
   .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 200px;
-  min-height: 250px;
+  width: 160px;
+
   padding: 0 2px 0 12px;
 }
   .section_07 .wrapper .article .info .schedule li {
