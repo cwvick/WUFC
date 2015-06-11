@@ -119,6 +119,31 @@ div[class^="section_"] {
   .section_06 .wrapper .article .info li+li { padding-top:30px;}
   .section_06 .wrapper .article .info .flag { width:45%; height:auto; float:left;}
   .section_06 .wrapper .article .info .name { float:left; width:175px;}
+  
+  /*SECTION_07*/
+  .section_07 .wrapper .article { width:85%; min-width:85%; position:absolute; left:5%; top:5%; color:#fff; padding:2%;}
+  .section_07 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
+  .section_07 .wrapper .article .info {  margin:2% 0; }
+  .section_07 .wrapper .article .info .schedule { height:350px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+  .section_07 .wrapper .article .info .schedule .schedule_list {
+  float: left;
+  width: 150px;
+  min-height: 350px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 12px;
+}
+  .section_07 .wrapper .article .info .schedule .schedule_list_content {
+  float: left;
+  width: 400px;
+  min-height: 350px;
+  padding: 0 2px 0 12px;
+}
+  .section_07 .wrapper .article .info .schedule li {
+  letter-spacing: 1px;
+}
+  .section_07 .wrapper .article .info .schedule li+li { padding-top: 10px;}
+  .section_07 .wrapper .article .info span { float:left; display:block; width:20px; height:30px; margin-top:5px; margin-right:5px;}
+  
   .section_08 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
   .bg {
     display: none;
