@@ -104,7 +104,7 @@ div[class^="section_"] {
   .school {  font-size:0.8em; line-height:1em;}
   /*SECTION_02*/
   .section_02 .wrapper { position:relative;}
-  .section_02 .wrapper .article { width:60%; position:absolute; left:15%; top:10%; color:#FFF; text-shadow:1px 1px 0px #000;}
+  .section_02 .wrapper .article { width:50%; position:absolute; left:15%; top:10%; color:#FFF; text-shadow:1px 1px 0px #000;}
   .section_02 .wrapper .article .info {  margin:2% 0; }
   
   .section_08 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
