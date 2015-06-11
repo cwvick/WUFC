@@ -82,7 +82,7 @@ div[class^="section_"] {
 .wrap .menubox a {
   color: #fff;
 }
-#phone_menuWrapper {
+.phone_menuWrapper {
   display: none;
 }
 @media all and (max-width: 799px) {
