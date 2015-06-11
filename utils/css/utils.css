@@ -96,8 +96,8 @@ div[class^="section_"] {
   }
   .line_white { width:100%; height:11px; display:block; background:url(../imgs/line_white.png) repeat-x;}
   .line_black { width:100%; height:11px; display:block; background:url(../imgs/line_black.png) repeat-x;}
-  h2{ font-size:2em; font-weight:bold; line-height:1.5em;}
-  h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
+  h2{ font-size:1.5em; font-weight:bold; line-height:1.5em;}
+  h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
   .text_title { font-size:1em;  line-height:2em;}
   .text_word { font-size:1em; line-height:1.6em;}
   .country { font-size:1em;  line-height:1.5em;}
