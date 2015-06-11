@@ -92,6 +92,7 @@ div[class^="section_"] {
   body, html {
     overflow: visible;
     position: relative;
+	font-size:10px;
   }
   .bg {
     display: none;
