@@ -107,6 +107,7 @@ div[class^="section_"] {
   .section_02 .wrapper .article { width:40%; min-width:40%; position:absolute; left:15%; top:15%; color:#FFF; text-shadow:1px 1px 0px #000;}
   .section_02 .wrapper .article .info {  margin:2% 0; }
   
+  .section_03 .wrapper .article { width:70%; min-width:70%; margin:0 auto; padding-top:5%; color:#FFF; background:rgba(255,107,26,0.8); padding:2%;}
   .section_08 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
   .bg {
     display: none;
