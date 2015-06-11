@@ -159,8 +159,8 @@ div[class^="section_"] {
   .section_08 .wrapper .article .info {  margin:2% 0; width:60%; }
   .section_08 .wrapper .article .info span { float:left; display:block; width:10px; height:10px; margin-top:5px; margin-right:5px;}
   .number_01 { background:url(../imgs/number_phone.png) 0 0 no-repeat;}
-  .number_02 { background:url(../imgs/number_phone.png) -20px 0 no-repeat;}
-  .number_03 { background:url(../imgs/number_phone.png) -40px 0 no-repeat;}
+  .number_02 { background:url(../imgs/number_phone.png) -10px 0 no-repeat;}
+  .number_03 { background:url(../imgs/number_phone.png) -20px 0 no-repeat;}
   /*SECTION_09*/
   .section_09 .wrapper .article { width:85%; min-width:85%; position:absolute; left:5%; top:5%; color:#FFF; background:rgba(0,0,0,0.8); padding:2%; text-shadow:2px -2px 0px #000;}
   .section_09 .wrapper .article h2{ font-size:2em; font-weight:bold; line-height:1em; margin-bottom: 10px;}
