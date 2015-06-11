@@ -109,7 +109,7 @@ div[class^="section_"] {
   .section_01 .wrapper .language { position:absolute; bottom:20px; right:10px; z-index:9999; }
   .section_01 .wrapper .language ul {}
   .section_01 .wrapper .language li { float:none;}
-  .section_01 .wrapper .language .icon { display:block; width:80%; margin:0 auto;}
+  .section_01 .wrapper .language .icon { display:block; width:50%; margin:0 auto;}
   
   /*SECTION_02*/
   .section_02 .wrapper { position:relative;}
