@@ -124,7 +124,7 @@ div[class^="section_"] {
   .section_07 .wrapper .article { width:85%; min-width:85%; position:absolute; left:5%; top:5%; color:#fff; padding:2%;}
   .section_07 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
   .section_07 .wrapper .article .info {  margin:2% 0; }
-  .section_07 .wrapper .article .info .schedule { height:250px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+  .section_07 .wrapper .article .info .schedule { height:300px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
   .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
   width: 15%;
@@ -134,7 +134,7 @@ div[class^="section_"] {
 }
   .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 60%;
+  width: 55%;
   min-height: 300px;
   padding: 0 2px 0 12px;
 }
