@@ -111,7 +111,7 @@ div[class^="section_"] {
   /*SECTION_04*/
   .section_04 .wrapper .article { width:85%; min-width:85px; position:absolute; left:5%; top:5%; color:#000;}
   /*SECTION_04*/
-  .section_05 .wrapper .article { width:40%; min-width:40%; position:absolute; left:18%; top:5; color:#FFF;}
+  .section_05 .wrapper .article { width:85%; min-width:85%; position:absolute; left:5%; top:5; color:#FFF;}
   .section_08 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
   .bg {
     display: none;
