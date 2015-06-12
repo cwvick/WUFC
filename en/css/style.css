@@ -101,7 +101,7 @@ h3{ font-size:2em; font-weight:normal; line-height:1.5em;}
 .section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
 .section_06 .wrapper .article .info li+li { padding-top:30px;}
 .section_06 .wrapper .article .info .flag { width:45%; height:auto; float:left;}
-.section_06 .wrapper .article .info .name { float:left; width:175px;}
+.section_06 .wrapper .article .info .name { float:left; }
 .section_06 .wrapper .bg{}
 
 
@@ -387,11 +387,11 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
   .section_07 .wrapper .article { width:90%; min-width:90%; position:absolute; left:3%; top:5%; color:#fff; padding:2%;}
   .section_07 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
   .section_07 .wrapper .article .info {  margin:2% 0; }
-  .section_07 .wrapper .article .info .schedule_phone { height:320px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+  .section_07 .wrapper .article .info .schedule_phone { height:340px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
   .section_07 .wrapper .article .info .schedule_phone .schedule_list {
   float: left;
   width: 20%;
-  min-height: 320px;
+  min-height: 340px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
 }
@@ -399,14 +399,14 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .article .info .schedule_phone .schedule_list_item {
   float: left;
   width: 30%;
-  min-height: 320px;
+  min-height: 340px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
 }
   .section_07 .wrapper .article .info .schedule_phone .schedule_list_content {
   float: left;
   width: 45%;
-  min-height: 320px;
+  min-height: 340px;
   padding: 0 2px 0 2px;
 }
   .section_07 .wrapper .article .info .schedule_phone li {
