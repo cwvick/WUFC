@@ -338,36 +338,38 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_06 .wrapper .bg{}
 
 /*SECTION_07*/
+.schedule { display:none;}
+.schedule_phone { display:block;}
 .section_07 {}
 .section_07 .wrapper { position:relative;}
 .section_07 .wrapper .article { width:82%; position:absolute; left:15%; top:2%; color:#fff; padding:2%;}
 .section_07 .wrapper .article h3{ font-size:2.5em; font-weight:normal; line-height:1.3em;}
 .section_07 .wrapper .article .info {  margin:2% 0; }
 .section_07 .wrapper .article .info .schedule { height:550px; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
-.section_07 .wrapper .article .info .schedule .schedule_list {
+.section_07 .wrapper .article .info .schedule_phone .schedule_list {
   float: left;
   width: 150px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
-.section_07 .wrapper .article .info .schedule .schedule_list_item {
+.section_07 .wrapper .article .info .schedule_phone .schedule_list_item {
   float: left;
   width: 200px;
   min-height: 550px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
-.section_07 .wrapper .article .info .schedule .schedule_list_content {
+.section_07 .wrapper .article .info .schedule_phone .schedule_list_content {
   float: left;
   width: 440px;
   min-height: 550px;
   padding: 0 2px 0 12px;
 }
-.section_07 .wrapper .article .info .schedule li {
+.section_07 .wrapper .article .info .schedule_phone li {
   letter-spacing: 1px;
 }
-.section_07 .wrapper .article .info .schedule li+li { padding-top: 10px;}
+.section_07 .wrapper .article .info .schedule li+li_phone { padding-top: 10px;}
 .section_07 .wrapper .article .info span { float:left; display:block; width:20px; height:30px; margin-top:5px; margin-right:5px;}
 .section_07 .wrapper .bg{}
 
