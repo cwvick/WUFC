@@ -136,10 +136,18 @@ div[class^="section_"] {
   .section_07 .wrapper .article .info .schedule { height:300px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
   .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
-  width: 15%;
+  width: 20%;
   min-height: 300px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 5px;
+}
+
+.section_07 .wrapper .article .info .schedule .schedule_list_item {
+  float: left;
+  width: 15%;
+  min-height: 650px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 12px;
 }
   .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
