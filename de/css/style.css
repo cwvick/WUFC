@@ -386,7 +386,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
   .section_07 .wrapper .article .info .schedule { height:300px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
   .section_07 .wrapper .article .info .schedule .schedule_list {
   float: left;
-  width: 17%;
+  width: 20%;
   min-height: 300px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
@@ -394,14 +394,14 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 
 .section_07 .wrapper .article .info .schedule .schedule_list_item {
   float: left;
-  width: 22%;
+  width: 25%;
   min-height: 300px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
 }
   .section_07 .wrapper .article .info .schedule .schedule_list_content {
   float: left;
-  width: 57%;
+  width: 40%;
   min-height: 300px;
   padding: 0 2px 0 2px;
 }
