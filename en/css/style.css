@@ -380,10 +380,36 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_09 .wrapper .article h3{ font-size:1.5em; font-weight:normal; line-height:1.3em;}
 }
 
-@media all and (max-width:799px){	
+@media all and (max-width:799px){
 
-.bg { display:none;}
-.player_01, .player_02, .player_03 { display:none;}
-.mobile_bg { display:block;}
+  /*SECTION_07*/
+  .section_07 .wrapper .article { width:90%; min-width:90%; position:absolute; left:3%; top:5%; color:#fff; padding:2%;}
+  .section_07 .wrapper .article h3{ font-size:1em; font-weight:normal; line-height:1.3em;}
+  .section_07 .wrapper .article .info {  margin:2% 0; }
+  .section_07 .wrapper .article .info .schedule { height:320px; min-width:85%; border-top: 2px solid #fff; border-bottom: 2px solid #fff;}
+  .section_07 .wrapper .article .info .schedule .schedule_list {
+  float: left;
+  width: 20%;
+  min-height: 320px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 2px;
+}
 
+.section_07 .wrapper .article .info .schedule .schedule_list_item {
+  float: left;
+  width: 30%;
+  min-height: 320px;
+  border-right: 1px solid #fff;
+  padding: 0 2px 0 2px;
+}
+  .section_07 .wrapper .article .info .schedule .schedule_list_content {
+  float: left;
+  width: 45%;
+  min-height: 320px;
+  padding: 0 2px 0 2px;
+}
+  .section_07 .wrapper .article .info .schedule li {
+  letter-spacing: 0px;
+}
+  .section_07 .wrapper .article .info .schedule li+li { padding-top: 5px;}
 }
