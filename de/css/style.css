@@ -389,7 +389,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
   .section_07 .wrapper .article .info .schedule_phone .schedule_list {
   float: left;
   width: 20%;
-  min-height: 300px;
+  min-height: 320px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
 }
@@ -397,14 +397,14 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_07 .wrapper .article .info .schedule_phone .schedule_list_item {
   float: left;
   width: 30%;
-  min-height: 300px;
+  min-height: 320px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 2px;
 }
   .section_07 .wrapper .article .info .schedule_phone .schedule_list_content {
   float: left;
   width: 45%;
-  min-height: 300px;
+  min-height: 320px;
   padding: 0 2px 0 2px;
 }
   .section_07 .wrapper .article .info .schedule_phone li {
