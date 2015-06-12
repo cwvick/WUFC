@@ -153,6 +153,8 @@ div[class^="section_"] {
   .mobile_bg {
     display: block;
   }
+  .schedule_phone {
+	  display:block;}
   .wrap {
     display: none;
   }

@@ -4,7 +4,7 @@
 body { font-size:16px; font-family: "Noto Sans CJK TC","Noto Sans CJK SC","PT Sans","Microsoft JhengHei","Microsoft YaHei", sans-serif, Arial, Helvetica;}
 /*通用項目*/
 div[class^="section_"] { min-width:1024px;}
-.mobile_bg { display:none;}
+.mobile_bg, .schedule_phone { display:none;}
 /*通用項目_go / top*/
 .btn_backTop { width:5%; position: fixed; z-index: 99; right: 20px; bottom: 20px; cursor: pointer; display: none;}
 .wrapper { position:relative;}
