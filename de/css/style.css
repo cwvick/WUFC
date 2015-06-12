@@ -186,7 +186,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
 .section_06 .wrapper .article .info li+li { padding-top:10px;}
 .section_06 .wrapper .article .info .flag { width:25%; height:auto; float:left;}
-.section_06 .wrapper .article .info .name { float:left;  }
+.section_06 .wrapper .article .info .name { float:left; width:200px; }
 .section_06 .wrapper .bg{}
 
 /*SECTION_07*/
@@ -257,7 +257,7 @@ h3{ font-size:1.7em; font-weight:normal; line-height:1.5em;}
 .section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
 .section_06 .wrapper .article .info li+li { padding-top:10px;}
 .section_06 .wrapper .article .info .flag { width:25%; height:auto; float:left;}
-.section_06 .wrapper .article .info .name { float:left; }
+.section_06 .wrapper .article .info .name { float:left; width:200px; }
 .section_06 .wrapper .bg{}
 
 /*SECTION_07*/
@@ -334,7 +334,7 @@ h3{ font-size:1.5em; font-weight:normal; line-height:1.5em;}
 .section_06 .wrapper .article .info ul.school_list {float: left; width:30%; padding: 0 2px 0 12px;}
 .section_06 .wrapper .article .info li+li { padding-top:10px;}
 .section_06 .wrapper .article .info .flag { width:25%; height:auto; float:left;}
-.section_06 .wrapper .article .info .name { float:left; }
+.section_06 .wrapper .article .info .name { float:left; width:200px; }
 .section_06 .wrapper .bg{}
 
 /*SECTION_07*/
